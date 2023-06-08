@@ -2,7 +2,7 @@
 main goal is solving, coding, upgrading skills
 
 
-#1 - Numbers of Letters of Numbers (Python)
+#1 - Numbers of Letters of Numbers (Python) - 6 kata
 
 If we write out the digits of "60" as English words we get "sixzero"; the number of letters in "sixzero" is seven. The number of letters in "seven" is five. The number of letters in "five" is four. The number of letters in "four" is four: we have reached a stable equilibrium.
 
@@ -13,3 +13,6 @@ For any integer between 0 and 999, return an array showing the path from that in
 Examples
 numbersOfLetters(60) --> ["sixzero", "seven", "five", "four"]
 numbersOfLetters(1) --> ["one", "three", "five", "four"]
+
+#2 - Write a function which calculates the average of the numbers in a given list. (Python) - 8 kata
+Note: Empty arrays should return 0.
