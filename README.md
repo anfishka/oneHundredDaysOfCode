@@ -16,3 +16,16 @@ numbersOfLetters(1) --> ["one", "three", "five", "four"]
 
 #2 - Write a function which calculates the average of the numbers in a given list. (Python) - 8 kata
 Note: Empty arrays should return 0.
+
+
+#3 We need a function that can transform a number (integer) into a string.
+
+What ways of achieving this do you know?
+
+Examples (input --> output):
+123  --> "123"
+999  --> "999"
+-100 --> "-100"
+
+python - 8 ksta
+
