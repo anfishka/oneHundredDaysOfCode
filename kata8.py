@@ -13,3 +13,10 @@ def find_average(numbers):
 find_average([1, 2, 3])
 find_average([1, 2, 3, 1, 8])
 find_average([1, 2, 3, 5,9,12])
+
+
+
+#new task
+
+def number_to_string(num):
+    return str(num)
