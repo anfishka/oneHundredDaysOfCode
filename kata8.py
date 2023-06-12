@@ -20,3 +20,15 @@ find_average([1, 2, 3, 5,9,12])
 
 def number_to_string(num):
     return str(num)
+
+#4th
+def add_length(str_):
+    modified_arr = []
+    words = str_.split()
+    for word in words:
+        modified_arr.append(word + " " + str(len(word)))
+    print(modified_arr)
+    return modified_arr
+
+
+add_length(["aaa", "bbb"])
