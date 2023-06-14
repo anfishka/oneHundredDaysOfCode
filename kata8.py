@@ -32,3 +32,10 @@ def add_length(str_):
 
 
 add_length(["aaa", "bbb"])
+
+def multiply_and_increase(value):
+    if isinstance(value, str):
+        return "Error"
+    else:
+        return value * 50 + 6
+
