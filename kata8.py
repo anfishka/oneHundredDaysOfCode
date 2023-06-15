@@ -40,7 +40,7 @@ def multiply_and_increase(value):
         return value * 50 + 6
 
 #6th BINARY TO DECIMAL WITH RECURSION
-
+#1st variant
 def bin_to_decimal(bin):
         if len(bin) == 0:
             return 0
@@ -53,3 +53,8 @@ def bin_to_decimal(bin):
 def res(bin):
     result = bin_to_decimal(bin)
     return result
+
+#2nd variant
+def bin_to_decimal(bin):
+    return int(bin, 2)
+
