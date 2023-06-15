@@ -39,3 +39,17 @@ def multiply_and_increase(value):
     else:
         return value * 50 + 6
 
+#6th BINARY TO DECIMAL WITH RECURSION
+
+def bin_to_decimal(bin):
+        if len(bin) == 0:
+            return 0
+        else:
+            significant_bit = int(bin[-1])
+            remain_bits = bin[:-1]
+            dec = bin_to_decimal(remain_bits)
+            return dec * 2 + significant_bit
+
+def res(bin):
+    result = bin_to_decimal(bin)
+    return result
