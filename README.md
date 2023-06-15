@@ -44,3 +44,7 @@ Python - 8 kata
 #5 Make a function that returns the value multiplied by 50 and increased by 6. If the value entered is a string it should return "Error".
 
 Python - 8 kata
+
+#6 Complete the function which converts a binary number (given as a string) to a decimal number.
+
+Python - 8 kata
