@@ -58,3 +58,18 @@ def res(bin):
 def bin_to_decimal(bin):
     return int(bin, 2)
 
+
+#7th task - How good are you really?
+def better_than_average(class_points, your_points):
+    average_class = 0
+    
+    if class_points != 0:
+        for i in class_points:
+            average_class += i
+        if average_class / len(class_points) >= your_points:
+            return False
+        else:
+            return True
+    else:
+         return  
+
