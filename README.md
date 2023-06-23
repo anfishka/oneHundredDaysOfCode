@@ -60,3 +60,14 @@ Note:
 Your points are not included in the array of your class's points. For calculating the average point you may add your point to the given array!
 
 Python - 8 kata
+
+#8 When provided with a letter, return its position in the alphabet.
+
+Input :: "a"
+
+Ouput :: "Position of alphabet: 1"
+
+Python - 8 kata
+
+
+
