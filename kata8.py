@@ -73,3 +73,13 @@ def better_than_average(class_points, your_points):
     else:
          return  
 
+#8th task - position in alphabet
+def position(a):
+    alphabet = ["a", "b", "c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+    res = 0
+    for i in range(len(alphabet)):
+        if a == alphabet[i]:
+            res = i+1
+    return "Position of alphabet: " + str(res)
+
+
