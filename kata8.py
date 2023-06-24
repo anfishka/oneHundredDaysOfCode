@@ -83,3 +83,13 @@ def position(a):
     return "Position of alphabet: " + str(res)
 
 
+#9th task - Is palindrome
+
+def is_palindrome(s):
+    s_modified_low = s.lower()
+    s_modified_join = "".join(s_modified_low)
+    s_modified_rev = s_modified_join[::-1]
+    if s_modified_join == s_modified_rev:
+        return True
+    else:
+        return False
