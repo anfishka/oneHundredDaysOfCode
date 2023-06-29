@@ -101,3 +101,12 @@ def boolean_to_string(b):
         return "True"
     else:
         return "False"
+
+
+#12th task
+def find_multiples(integer, limit):
+    tmp_arr = []
+    if integer and limit > 0:
+        for i in range(integer, limit+1, integer):
+            tmp_arr.append(i)
+    return tmp_arr
