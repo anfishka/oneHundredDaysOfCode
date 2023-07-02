@@ -101,7 +101,14 @@ def boolean_to_string(b):
         return "True"
     else:
         return "False"
-
+        
+#11th task 
+def triple_trouble(one, two, three):
+    if len(one) == len(two) and len(two) == len(three): 
+        combined_phrase = ''
+        for i in range(len(one)):
+            combined_phrase = combined_phrase + one[i] + two[i] + three[i]
+        return combined_phrase
 
 #12th task
 def find_multiples(integer, limit):
