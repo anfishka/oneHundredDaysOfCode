@@ -117,3 +117,9 @@ def find_multiples(integer, limit):
         for i in range(integer, limit+1, integer):
             tmp_arr.append(i)
     return tmp_arr
+    
+#13th reversed str
+
+def solution(string):
+    reversed_str = "".join(list(reversed(string)))
+    return reversed_str
